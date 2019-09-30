@@ -165,8 +165,8 @@ plaintext = ''
 for i in range(len(keyss[0])):
     keyss[0][i] = '0b' +  keyss[0][i]
     plaintext += keyss[0][i] + ','
-print(plaintext)
-print(keyss[1])
+print("key=",keyss[1])    
+print("plaintext=",plaintext)
 
 
 
